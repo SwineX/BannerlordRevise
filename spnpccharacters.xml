@@ -17311,7 +17311,7 @@
 	</NPCCharacter>
 	<NPCCharacter
 		id="vlandian_guard_knight"
-		default_group="Cavalry"
+		default_group="HorseArcher"
 		level="31"
 		name="{=bTApMxWr}Vlandian Guard Knight"
 		occupation="Soldier"
@@ -17341,7 +17341,7 @@
 				value="25" />
 			<skill
 				id="Crossbow"
-				value="60" />
+				value="260" />
 			<skill
 				id="Throwing"
 				value="30" />
@@ -17350,13 +17350,16 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.vlandia_lance_2_t4" />
+					id="Item.hooked_axe_t4" />
 				<equipment
 					slot="Item1"
-					id="Item.heavy_horsemans_kite_shield" />
+					id="Item.crossbow_f" />
 				<equipment
 					slot="Item2"
-					id="Item.vlandia_sword_4_t4" />
+					id="Item.bolt_c" />
+				<equipment
+					slot="Item3"
+					id="Item.bolt_c" />
 				<equipment
 					slot="Body"
 					id="Item.sturgian_fortified_armor" />
@@ -17376,13 +17379,16 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.vlandia_lance_2_t4" />
+					id="Item.hooked_axe_t4" />
 				<equipment
 					slot="Item1"
-					id="Item.heavy_horsemans_kite_shield" />
+					id="Item.crossbow_f" />
 				<equipment
 					slot="Item2"
-					id="Item.vlandia_axe_2_t4" />
+					id="Item.bolt_c" />
+				<equipment
+					slot="Item3"
+					id="Item.bolt_c" />
 				<equipment
 					slot="Body"
 					id="Item.sturgian_fortified_armor" />
@@ -17402,13 +17408,16 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.vlandia_lance_2_t4" />
+					id="Item.hooked_axe_t4" />
 				<equipment
 					slot="Item1"
-					id="Item.heavy_horsemans_kite_shield" />
+					id="Item.crossbow_f" />
 				<equipment
 					slot="Item2"
-					id="Item.vlandia_mace_2_t4" />
+					id="Item.bolt_c" />
+				<equipment
+					slot="Item3"
+					id="Item.bolt_c" />
 				<equipment
 					slot="Body"
 					id="Item.sturgian_fortified_armor" />
