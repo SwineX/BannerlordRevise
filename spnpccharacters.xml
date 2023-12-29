@@ -13158,7 +13158,7 @@
 				value="35" />
 			<skill
 				id="Polearm"
-				value="70" />
+				value="110" />
 			<skill
 				id="Bow"
 				value="35" />
@@ -13475,7 +13475,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.sturgia_lance_1_t4" />
+					id="Item.sturgia_lance_2_t5" />
 				<equipment
 					slot="Item1"
 					id="Item.heavy_round_shield" />
@@ -13510,7 +13510,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.sturgia_lance_1_t4" />
+					id="Item.sturgia_lance_2_t5" />
 				<equipment
 					slot="Item1"
 					id="Item.heavy_round_shield" />
@@ -13545,7 +13545,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.sturgia_lance_1_t4" />
+					id="Item.sturgia_lance_2_t5" />
 				<equipment
 					slot="Item1"
 					id="Item.heavy_round_shield" />
@@ -17313,7 +17313,7 @@
 		id="vlandian_guard_knight"
 		default_group="HorseArcher"
 		level="31"
-		name="{=bTApMxWr}Vlandian Guard Knight"
+		name="{=gTApMxWr}Vlandian Guard Knight"
 		occupation="Soldier"
 		culture="Culture.vlandia">
 		<face>
@@ -17350,7 +17350,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.hooked_axe_t4" />
+					id="Item.vlandia_polearm_1_t5" />
 				<equipment
 					slot="Item1"
 					id="Item.crossbow_f" />
@@ -17379,7 +17379,7 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.hooked_axe_t4" />
+					id="Item.vlandia_polearm_1_t5" />
 				<equipment
 					slot="Item1"
 					id="Item.crossbow_f" />
