@@ -819,7 +819,7 @@
 		Type="Cape">
 		<ItemComponent>
 			<Armor
-				body_armor="5"
+				body_armor="10"
 				arm_armor="11"
 				modifier_group="plate"
 				material_type="Plate" />
