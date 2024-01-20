@@ -674,6 +674,8 @@
 				id="NPCCharacter.aserai_veteran_faris" />
 			<upgrade_target
 				id="NPCCharacter.rider_rogue" />
+			<upgrade_target
+				id="NPCCharacter.wan_jun_hou" />
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
@@ -831,6 +833,7 @@
 				id="Item.battania_horse_harness_halfscaled" />
 		</Equipments>
 	</NPCCharacter>
+	<!-- range rogue-->
 	<NPCCharacter
 		id="rider_rogue"
 		default_group="HorseArcher"
@@ -974,6 +977,157 @@
 				<equipment
 					slot="HorseHarness"
 					id="Item.battania_horse_harness_scaled" />
+			</EquipmentRoster>
+
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- wan jun hou-->
+	<NPCCharacter
+		id="wan_jun_hou"
+		default_group="Cavalry"
+		level="26"
+		name="{=wjhNS83n}Wan Jun Hou"
+		occupation="Bandit"
+		culture="Culture.looters">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_battania" />
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="230" />
+			<skill
+				id="Riding"
+				value="250" />
+			<skill
+				id="OneHanded"
+				value="240" />
+			<skill
+				id="TwoHanded"
+				value="280" />
+			<skill
+				id="Polearm"
+				value="280" />
+			<skill
+				id="Bow"
+				value="40" />
+			<skill
+				id="Crossbow"
+				value="25" />
+			<skill
+				id="Throwing"
+				value="240" />
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_lance_3_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.heavy_round_shield" />
+				<equipment
+					slot="Item2"
+					id="Item.sturgia_2haxe_2_t5" />
+				<equipment
+					slot="Item3"
+					id="Item.eastern_javelin_3_t4" />
+				<equipment
+					slot="Body"
+					id="Item.battania_mercenary_armor" />
+				<equipment
+					slot="Head"
+					id="Item.sturgian_helmet_closed" />
+				<equipment
+					slot="Gloves"
+					id="Item.lordly_mail_mitten" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_mail_chausses" />
+				<equipment
+					slot="Cape"
+					id="Item.scale_shoulder_armor" />
+				<equipment
+					slot="Horse"
+					id="Item.noble_horse_battania" />
+				<equipment
+					slot="HorseHarness"
+					id="Item.chain_barding" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_lance_3_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.heavy_round_shield" />
+				<equipment
+					slot="Item2"
+					id="Item.sturgia_axe_4_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.eastern_javelin_3_t4" />
+				<equipment
+					slot="Body"
+					id="Item.coat_of_plates_over_mail" />
+				<equipment
+					slot="Head"
+					id="Item.battanian_noble_helmet_with_feather" />
+				<equipment
+					slot="Cape"
+					id="Item.scale_shoulder_armor" />
+				<equipment
+					slot="Gloves"
+					id="Item.lordly_mail_mitten" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_mail_chausses" />
+				<equipment
+					slot="Horse"
+					id="Item.noble_horse_battania" />
+				<equipment
+					slot="HorseHarness"
+					id="Item.chain_barding" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandia_lance_3_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.heavy_round_shield" />
+				<equipment
+					slot="Item2"
+					id="Item.battania_2hsword_5_t5" />
+				<equipment
+					slot="Item3"
+					id="Item.eastern_javelin_3_t4" />
+				<equipment
+					slot="Body"
+					id="Item.sturgian_fortified_armor" />
+				<equipment
+					slot="Head"
+					id="Item.lendman_helmet_over_full_mail" />
+				<equipment
+					slot="Cape"
+					id="Item.scale_shoulder_armor" />
+				<equipment
+					slot="Gloves"
+					id="Item.lordly_mail_mitten" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_mail_chausses" />
+				<equipment
+					slot="Horse"
+					id="Item.noble_horse_battania" />
+				<equipment
+					slot="HorseHarness"
+					id="Item.chain_barding" />
 			</EquipmentRoster>
 
 			<EquipmentSet
@@ -1181,6 +1335,8 @@
 		<upgrade_targets>
 			<upgrade_target
 				id="NPCCharacter.bandit_god" />
+			<upgrade_target
+				id="NPCCharacter.bandit_god2" />
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
@@ -1319,16 +1475,245 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.sturgia_2haxe_2_t5" />
+					id="Item.sturgia_axe_4_t4" />
 				<equipment
 					slot="Item1"
-					id="Item.lowland_yew_bow" />
+					id="Item.heavy_round_shield" />
 				<equipment
 					slot="Item2"
-					id="Item.bodkin_arrows_a" />
+					id="Item.noble_long_bow" />
 				<equipment
 					slot="Item3"
 					id="Item.bodkin_arrows_a" />
+				<equipment
+					slot="Gloves"
+					id="Item.northern_plated_gloves" />
+				<equipment
+					slot="Body"
+					id="Item.sturgian_fortified_armor" />
+				<equipment
+					slot="Leg"
+					id="Item.mail_chausses" />
+				<equipment
+					slot="Cape"
+					id="Item.brass_lamellar_shoulder_white" />
+				<equipment
+					slot="Head"
+					id="Item.sturgian_helmet_closed" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_4_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.heavy_round_shield" />
+				<equipment
+					slot="Item2"
+					id="Item.noble_long_bow" />
+				<equipment
+					slot="Item3"
+					id="Item.bodkin_arrows_a" />
+				<equipment
+					slot="Gloves"
+					id="Item.northern_plated_gloves" />
+				<equipment
+					slot="Body"
+					id="Item.northern_brass_lamellar_over_mail" />
+				<equipment
+					slot="Leg"
+					id="Item.mail_chausses" />
+				<equipment
+					slot="Cape"
+					id="Item.brass_lamellar_shoulder_white" />
+				<equipment
+					slot="Head"
+					id="Item.sturgian_battle_crown" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_4_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.heavy_round_shield" />
+				<equipment
+					slot="Item2"
+					id="Item.noble_long_bow" />
+				<equipment
+					slot="Item3"
+					id="Item.bodkin_arrows_a" />
+				<equipment
+					slot="Gloves"
+					id="Item.northern_plated_gloves" />
+				<equipment
+					slot="Body"
+					id="Item.sturgian_lamellar_base" />
+				<equipment
+					slot="Leg"
+					id="Item.mail_chausses" />
+				<equipment
+					slot="Cape"
+					id="Item.brass_lamellar_shoulder_white" />
+				<equipment
+					slot="Head"
+					id="Item.sturgian_helmet_b_close" />
+			</EquipmentRoster>
+			<!-- <EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_2haxe_2_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.crossbow_f" />
+				<equipment
+					slot="Item2"
+					id="Item.bolt_d" />
+				<equipment
+					slot="Item3"
+					id="Item.bolt_d" />
+				<equipment
+					slot="Gloves"
+					id="Item.northern_plated_gloves" />
+				<equipment
+					slot="Body"
+					id="Item.northern_brass_lamellar_over_mail" />
+				<equipment
+					slot="Leg"
+					id="Item.mail_chausses" />
+				<equipment
+					slot="Cape"
+					id="Item.brass_lamellar_shoulder_white" />
+				<equipment
+					slot="Head"
+					id="Item.sturgian_battle_crown" />
+			</EquipmentRoster> -->
+			<!-- <EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_4_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.heavy_round_shield" />
+				<equipment
+					slot="Item2"
+					id="Item.crossbow_f" />
+				<equipment
+					slot="Item3"
+					id="Item.bolt_d" />
+				<equipment
+					slot="Gloves"
+					id="Item.northern_plated_gloves" />
+				<equipment
+					slot="Body"
+					id="Item.sturgian_lamellar_base" />
+				<equipment
+					slot="Leg"
+					id="Item.mail_chausses" />
+				<equipment
+					slot="Cape"
+					id="Item.brass_lamellar_shoulder_white" />
+				<equipment
+					slot="Head"
+					id="Item.sturgian_helmet_b_close" />
+			</EquipmentRoster> -->
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_axe_4_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.heavy_round_shield" />
+				<equipment
+					slot="Item2"
+					id="Item.noble_long_bow" />
+				<equipment
+					slot="Item3"
+					id="Item.bodkin_arrows_a" />
+				<equipment
+					slot="Gloves"
+					id="Item.northern_plated_gloves" />
+				<equipment
+					slot="Body"
+					id="Item.sturgian_lamellar_fortified" />
+				<equipment
+					slot="Leg"
+					id="Item.mail_chausses" />
+				<equipment
+					slot="Cape"
+					id="Item.brass_lamellar_shoulder_white" />
+				<equipment
+					slot="Head"
+					id="Item.sturgian_lord_helmet_c" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="sturgia_troop_civilian_template_t3"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- bandit god2 -->
+	<NPCCharacter
+		id="bandit_god2"
+		default_group="Ranged"
+		level="31"
+		name="{=tgDNS83n}"
+		occupation="Bandit"
+		culture="Culture.looters">
+		<face>
+			<BodyProperties
+				version="4"
+				age="22.19"
+				weight="0.0124"
+				build="0.01"
+				key="0000000000000000111111111111111000001100000100000001000000100000000106030000000000000000000000000000000000000000000000001C040002" />
+			<BodyPropertiesMax
+				version="4"
+				age="70.19"
+				weight="0.99"
+				build="0.99"
+				key="0020FC0FDEFC3A5CFFEEEFFFEEFEFFFEFFFFFFFFEFEFFFFFFEEFFFEFFFFFEFFE00FEE6030FFFEFEE000000000000000000000000000000000000000067FC9145" />
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="300" />
+			<skill
+				id="Riding"
+				value="170" />
+			<skill
+				id="OneHanded"
+				value="280" />
+			<skill
+				id="TwoHanded"
+				value="280" />
+			<skill
+				id="Polearm"
+				value="170" />
+			<skill
+				id="Bow"
+				value="250" />
+			<skill
+				id="Crossbow"
+				value="250" />
+			<skill
+				id="Throwing"
+				value="190" />
+		</skills>
+		<upgrade_targets></upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_2haxe_2_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.crossbow_f" />
+				<equipment
+					slot="Item2"
+					id="Item.bolt_d" />
+				<equipment
+					slot="Item3"
+					id="Item.bolt_d" />
 				<equipment
 					slot="Gloves"
 					id="Item.northern_plated_gloves" />
@@ -1377,6 +1762,64 @@
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
+					id="Item.sturgia_2haxe_2_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.crossbow_f" />
+				<equipment
+					slot="Item2"
+					id="Item.bolt_d" />
+				<equipment
+					slot="Item3"
+					id="Item.bolt_d" />
+				<equipment
+					slot="Gloves"
+					id="Item.northern_plated_gloves" />
+				<equipment
+					slot="Body"
+					id="Item.sturgian_lamellar_base" />
+				<equipment
+					slot="Leg"
+					id="Item.mail_chausses" />
+				<equipment
+					slot="Cape"
+					id="Item.brass_lamellar_shoulder_white" />
+				<equipment
+					slot="Head"
+					id="Item.sturgian_helmet_b_close" />
+			</EquipmentRoster>
+			<!-- <EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.sturgia_2haxe_2_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.crossbow_f" />
+				<equipment
+					slot="Item2"
+					id="Item.bolt_d" />
+				<equipment
+					slot="Item3"
+					id="Item.bolt_d" />
+				<equipment
+					slot="Gloves"
+					id="Item.northern_plated_gloves" />
+				<equipment
+					slot="Body"
+					id="Item.northern_brass_lamellar_over_mail" />
+				<equipment
+					slot="Leg"
+					id="Item.mail_chausses" />
+				<equipment
+					slot="Cape"
+					id="Item.brass_lamellar_shoulder_white" />
+				<equipment
+					slot="Head"
+					id="Item.sturgian_battle_crown" />
+			</EquipmentRoster> -->
+			<!-- <EquipmentRoster>
+				<equipment
+					slot="Item0"
 					id="Item.sturgia_axe_4_t4" />
 				<equipment
 					slot="Item1"
@@ -1402,20 +1845,20 @@
 				<equipment
 					slot="Head"
 					id="Item.sturgian_helmet_b_close" />
-			</EquipmentRoster>
+			</EquipmentRoster> -->
 			<EquipmentRoster>
 				<equipment
 					slot="Item0"
-					id="Item.sturgia_axe_4_t4" />
+					id="Item.sturgia_2haxe_2_t5" />
 				<equipment
 					slot="Item1"
-					id="Item.heavy_round_shield" />
+					id="Item.crossbow_f" />
 				<equipment
 					slot="Item2"
-					id="Item.noble_long_bow" />
+					id="Item.bolt_d" />
 				<equipment
 					slot="Item3"
-					id="Item.bodkin_arrows_a" />
+					id="Item.bolt_d" />
 				<equipment
 					slot="Gloves"
 					id="Item.northern_plated_gloves" />
@@ -2066,6 +2509,8 @@
 		<upgrade_targets>
 			<upgrade_target
 				id="NPCCharacter.druzhinnik" />
+			<upgrade_target
+				id="NPCCharacter.sea_king" />
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster
@@ -2169,6 +2614,179 @@
 					slot="Head"
 					id="Item.nasalhelm_over_mail" />
 			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<!-- sea king -->
+	<NPCCharacter
+		id="sea_king"
+		default_group="Infantry"
+		level="26"
+		name="{=hzwNS83n}"
+		occupation="Bandit"
+		culture="Culture.looters">
+		<face>
+			<BodyProperties
+				version="4"
+				age="22.19"
+				weight="0.0124"
+				build="0.01"
+				key="0000000000000000111111111111111000001100000100000001000000100000000106030000000000000000000000000000000000000000000000001C040002" />
+			<BodyPropertiesMax
+				version="4"
+				age="70.19"
+				weight="0.99"
+				build="0.99"
+				key="0020FC0FDEFC3A5CFFEEEFFFEEFEFFFEFFFFFFFFEFEFFFFFFEEFFFEFFFFFEFFE00FEE6030FFFEFEE000000000000000000000000000000000000000067FC9145" />
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="200" />
+			<skill
+				id="Riding"
+				value="50" />
+			<skill
+				id="OneHanded"
+				value="230" />
+			<skill
+				id="TwoHanded"
+				value="230" />
+			<skill
+				id="Polearm"
+				value="210" />
+			<skill
+				id="Bow"
+				value="80" />
+			<skill
+				id="Crossbow"
+				value="80" />
+			<skill
+				id="Throwing"
+				value="300" />
+		</skills>
+		<upgrade_targets>
+
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_2haxe_3_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.heavy_round_shield" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_axe_2_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.eastern_javelin_3_t4" />
+				<equipment
+					slot="Gloves"
+					id="Item.northern_plated_gloves" />
+				<equipment
+					slot="Body"
+					id="Item.sturgian_fortified_armor" />
+				<equipment
+					slot="Leg"
+					id="Item.mail_chausses" />
+				<equipment
+					slot="Cape"
+					id="Item.fur_cloak_a" />
+				<equipment
+					slot="Head"
+					id="Item.sturgian_helmet_closed" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_2haxe_3_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.heavy_round_shield" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_axe_2_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.eastern_javelin_3_t4" />
+				<equipment
+					slot="Gloves"
+					id="Item.northern_plated_gloves" />
+				<equipment
+					slot="Body"
+					id="Item.northern_brass_lamellar_over_mail" />
+				<equipment
+					slot="Leg"
+					id="Item.mail_chausses" />
+				<equipment
+					slot="Cape"
+					id="Item.fur_cloak_c" />
+				<equipment
+					slot="Head"
+					id="Item.sturgian_battle_crown" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_4_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.heavy_round_shield" />
+				<equipment
+					slot="Item2"
+					id="Item.empire_mace_5_t5" />
+				<equipment
+					slot="Item3"
+					id="Item.eastern_javelin_3_t4" />
+				<equipment
+					slot="Gloves"
+					id="Item.northern_plated_gloves" />
+				<equipment
+					slot="Body"
+					id="Item.sturgian_lamellar_base" />
+				<equipment
+					slot="Leg"
+					id="Item.mail_chausses" />
+				<equipment
+					slot="Cape"
+					id="Item.fur_cloak_a" />
+				<equipment
+					slot="Head"
+					id="Item.sturgian_helmet_b_close" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_4_t4" />
+				<equipment
+					slot="Item1"
+					id="Item.heavy_round_shield" />
+				<equipment
+					slot="Item2"
+					id="Item.empire_mace_5_t5" />
+				<equipment
+					slot="Item3"
+					id="Item.eastern_javelin_3_t4" />
+				<equipment
+					slot="Gloves"
+					id="Item.northern_plated_gloves" />
+				<equipment
+					slot="Body"
+					id="Item.sturgian_lamellar_fortified" />
+				<equipment
+					slot="Leg"
+					id="Item.mail_chausses" />
+				<equipment
+					slot="Cape"
+					id="Item.fur_cloak_c" />
+				<equipment
+					slot="Head"
+					id="Item.sturgian_lord_helmet_c" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="sturgia_troop_civilian_template_t3"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter
@@ -2497,6 +3115,8 @@
 		<upgrade_targets>
 			<upgrade_target
 				id="NPCCharacter.vlandian_champion" />
+			<upgrade_target
+				id="NPCCharacter.mountain_wolf" />
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster
@@ -2689,6 +3309,144 @@
 					slot="HorseHarness"
 					id="Item.battania_horse_harness" />
 			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="mountain_wolf"
+		default_group="Cavalry"
+		name="{=qlqd9DpR}MountainWolf"
+		level="26"
+		occupation="Bandit"
+		culture="Culture.mountain_bandits">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_battania" />
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="120" />
+			<skill
+				id="Bow"
+				value="80" />
+			<skill
+				id="OneHanded"
+				value="180" />
+			<skill
+				id="Polearm"
+				value="260" />
+			<skill
+				id="Riding"
+				value="220" />
+			<skill
+				id="Throwing"
+				value="180" />
+			<skill
+				id="TwoHanded"
+				value="100" />
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.eastern_spear_5_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.battania_shield_targe_a" />
+				<equipment
+					slot="Item2"
+					id="Item.battania_axe_2_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.northern_javelin_3_t4" />
+				<equipment
+					slot="Body"
+					id="Item.battania_warlord_armor" />
+				<equipment
+					slot="Head"
+					id="Item.ridged_northernhelm" />
+				<equipment
+					slot="Gloves"
+					id="Item.battania_warlord_bracers" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_warlord_boots" />
+				<equipment
+					slot="Cape"
+					id="Item.battanian_chainmail_shoulder_b" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.eastern_spear_5_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.battania_shield_targe_a" />
+				<equipment
+					slot="Item2"
+					id="Item.battania_sword_4_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.northern_javelin_3_t4" />
+				<equipment
+					slot="Body"
+					id="Item.battania_warlord_armor" />
+				<equipment
+					slot="Gloves"
+					id="Item.battania_warlord_bracers" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_warlord_boots" />
+				<equipment
+					slot="Head"
+					id="Item.ridged_northernhelm" />
+				<equipment
+					slot="Cape"
+					id="Item.battanian_chainmail_shoulder_b" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.eastern_spear_5_t5" />
+				<equipment
+					slot="Item1"
+					id="Item.battania_shield_targe_a" />
+				<equipment
+					slot="Item2"
+					id="Item.battania_sword_4_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.northern_javelin_3_t4" />
+				<equipment
+					slot="Body"
+					id="Item.battania_warlord_armor" />
+				<equipment
+					slot="Head"
+					id="Item.battania_fur_helmet" />
+				<equipment
+					slot="Gloves"
+					id="Item.battania_warlord_bracers" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_warlord_boots" />
+				<equipment
+					slot="Head"
+					id="Item.ridged_northernhelm" />
+				<equipment
+					slot="Cape"
+					id="Item.battanian_chainmail_shoulder_b" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="battania_troop_civilian_template_t2"
+				civilian="true" />
+			<equipment
+				slot="Horse"
+				id="Item.t3_aserai_horse" />
+			<equipment
+				slot="HorseHarness"
+				id="Item.chain_barding" />
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter
@@ -3262,6 +4020,8 @@
 		<upgrade_targets>
 			<upgrade_target
 				id="NPCCharacter.battanian_fian" />
+			<upgrade_target
+				id="NPCCharacter.robin_hood" />
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster
@@ -3414,6 +4174,133 @@
 				<equipment
 					slot="Head"
 					id="Item.bearhead" />
+				<equipment
+					slot="Cape"
+					id="Item.bearskin" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<!-- luobinhan-->
+	<NPCCharacter
+		id="robin_hood"
+		default_group="Ranged"
+		name="{=rbhODQ1q}Forest Bandit"
+		level="26"
+		occupation="Bandit"
+		culture="Culture.forest_bandits">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_battania" />
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="190" />
+			<skill
+				id="Bow"
+				value="260" />
+			<skill
+				id="OneHanded"
+				value="190" />
+			<skill
+				id="Polearm"
+				value="80" />
+			<skill
+				id="Riding"
+				value="100" />
+			<skill
+				id="Throwing"
+				value="80" />
+			<skill
+				id="TwoHanded"
+				value="80" />
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.lowland_yew_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.bodkin_arrows_a" />
+				<equipment
+					slot="Item2"
+					id="Item.battania_sword_5_t5" />
+				<equipment
+					slot="Item3"
+					id="Item.bodkin_arrows_a" />
+				<equipment
+					slot="Body"
+					id="Item.battania_mercenary_armor" />
+				<equipment
+					slot="Leg"
+					id="Item.mail_chausses" />
+				<equipment
+					slot="Gloves"
+					id="Item.studded_vambraces" />
+				<equipment
+					slot="Head"
+					id="Item.battanian_crowned_helmet" />
+				<equipment
+					slot="Cape"
+					id="Item.bearskin" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.woodland_longbow" />
+				<equipment
+					slot="Item1"
+					id="Item.bodkin_arrows_a" />
+				<equipment
+					slot="Item2"
+					id="Item.battania_axe_2_t4" />
+				<equipment
+					slot="Item3"
+					id="Item.bodkin_arrows_a" />
+				<equipment
+					slot="Body"
+					id="Item.battania_noble_armor" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_fur_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.studded_vambraces" />
+				<equipment
+					slot="Head"
+					id="Item.battanian_noble_helmet_with_feather" />
+				<equipment
+					slot="Cape"
+					id="Item.bearskin" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.woodland_longbow" />
+				<equipment
+					slot="Item1"
+					id="Item.bodkin_arrows_a" />
+				<equipment
+					slot="Item2"
+					id="Item.battania_sword_5_t5" />
+				<equipment
+					slot="Item3"
+					id="Item.bodkin_arrows_a" />
+				<equipment
+					slot="Body"
+					id="Item.battanian_scale_armor_a" />
+				<equipment
+					slot="Leg"
+					id="Item.battania_leather_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.studded_leather_vambraces" />
+				<equipment
+					slot="Head"
+					id="Item.ridged_northernhelm" />
 				<equipment
 					slot="Cape"
 					id="Item.bearskin" />
